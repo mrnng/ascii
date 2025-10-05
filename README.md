@@ -2,6 +2,11 @@
 
 This is a Python script that converts an image to a colored ASCII art in an HTML document.
 
+## Requirements
+
+- Python 3.9+
+- [pillow](https://pypi.org/project/pillow/)
+
 ## Usage
 
 Clone the repository and access it:
