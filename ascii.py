@@ -20,8 +20,8 @@ width, height = im.size
 
 # "compression" factors for width and height
 # (how many pixels convert to a character, e.g. each 3x2 become 1 ascii character)
-WIDTH_FACTOR = 20
-HEIGHT_FACTOR = 40
+WIDTH_FACTOR = 10
+HEIGHT_FACTOR = 20
 
 # "trimming" extra pixels by not considering them at all
 # (height needs to be divisible by HEIGHT_FACTOR, and likewise for width)
