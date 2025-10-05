@@ -38,11 +38,13 @@ python3 ascii.py ./winnie.png
 This produces the following page:
 ![An image of the converted ASCII art of Winnie the Pooh](./images/ascii-winnie.png)
 
+![A closeup of the ASCII art showing individual characters](./images/ascii-winnie-closeup.png)
+
 ## Support
 
 This script was tested on the three most common image formats on the internet: JPG, PNG, and WebP.
 
-Running the script produces a SyntaxWarning because of the use of "\|" in the grey-to-ascii map, which Python sees as an invalid escape character.
+Running the script produces a SyntaxWarning because of the use of ```"\|"``` in the grey-to-ascii map, which Python sees as an invalid escape character.
 You may choose to suppress this warning.
 
 ## Inspiration
