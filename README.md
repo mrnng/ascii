@@ -28,6 +28,7 @@ You can also change the constants WIDTH_FACTOR and HEIGHT_FACTOR as specified in
 ## Example
 
 Suppose this image is saved in the same directory with the name ```winnie.png```:
+
 ![An image of Winnie the Pooh](./images/winnie.png)
 
 Then you run:
@@ -36,7 +37,10 @@ python3 ascii.py ./winnie.png
 ```
 
 This produces the following page:
+
 ![An image of the converted ASCII art of Winnie the Pooh](./images/ascii-winnie.png)
+
+Closeup showing the characters:
 
 ![A closeup of the ASCII art showing individual characters](./images/ascii-winnie-closeup.png)
 
